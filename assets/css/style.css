@@ -157,7 +157,7 @@ hr {
     color: #ffffff;
     background-color: rgba(0, 0, 0, 0.4);
     text-align: center;    
-    flex-basis: 200px;
+    flex-basis: 150px;
     flex-grow: 1;
     border: 2px solid white;
 }
