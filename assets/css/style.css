@@ -81,9 +81,14 @@ nav {
 /* main content */
 
 main {
-    background-color: aquamarine;
+    background: url(../images/AdobeStock_383183949-min.jpeg) no-repeat center center/cover;
     flex: 1 0 auto;
     margin-top: 47px;
+}
+
+#hero {
+    height: 600px;
+    width: 100%;
 }
 
 /* footer */
