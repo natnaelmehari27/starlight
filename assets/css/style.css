@@ -89,7 +89,20 @@ main {
 /* footer */
 
 footer {
-    background-color: aqua;
+    background-color: #ffffff;
+}
+
+#social {
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social i {
+    font-size: 150%;
+    color: #000000;
 }
 
 /* media query: tablets and larger (768px & up) */
