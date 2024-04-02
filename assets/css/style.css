@@ -37,6 +37,20 @@ header a {
     color: #000000;
 }
 
+#bar {
+    font-size: 110;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#bar > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid black;
+}
+
 /* main content */
 
 main {
