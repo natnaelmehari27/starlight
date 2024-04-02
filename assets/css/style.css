@@ -85,6 +85,8 @@ main {
     background-color: #000000;
     flex: 1 0 auto;
     margin-top: 47px;
+    display: flex;
+    flex-direction: column;
 }
 
 #hero {
@@ -162,6 +164,11 @@ hr {
     border: 2px solid white;
 }
 
+/* join us page */
+
+#joinus {
+    background
+}
 
 /* footer */
 
