@@ -12,6 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     color: #ffffff;
+    font-family: 'Crimson Text', Helvetica, sans-serif;
 }
 
 /* header */
