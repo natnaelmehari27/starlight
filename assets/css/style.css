@@ -15,6 +15,10 @@ body {
     font-family: 'Crimson Text', Helvetica, sans-serif;
 }
 
+h1 {
+    font-family: 'Libre Baskerville', Helvetica, sans-serif;
+}
+
 /* header */
 header {
     background-color: blanchedalmond;
