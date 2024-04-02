@@ -51,6 +51,18 @@ header a {
     border-bottom: 1px solid black;
 }
 
+/* navbar styles */
+
+nav {
+    position: absolute;
+    background: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #e3dcdc;
+    display: none;
+}
+
 /* main content */
 
 main {
