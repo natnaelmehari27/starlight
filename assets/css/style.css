@@ -27,13 +27,16 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #e3dcdc;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
     text-decoration: none;
     color: inherit;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     color: #000000;
 }
 
@@ -52,7 +55,6 @@ header a {
 }
 
 /* navbar styles */
-
 nav {
     position: absolute;
     background: #ffffff;
@@ -61,6 +63,19 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 2px 2px #e3dcdc;
     display: none;
+    top: 100%;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
 }
 
 /* main content */
