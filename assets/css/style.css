@@ -146,9 +146,13 @@ hr {
 
 /* courses page */
 
+#introduction {
+    margin-top: 50px;
+}
+
 #schedule {
     background: url(../images/conscious-design-eZIE5ZFR7Cs-unsplash.jpg) no-repeat center/cover;
-    height: 100vh;
+    height: 80vh;
     max-width: 100%;
     display: flex;
     flex-wrap: wrap;
