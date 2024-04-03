@@ -227,6 +227,12 @@ footer {
     color: #000000;
 }
 
+#copyright p {
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+}
+
 /* media query: tablets and larger (768px & up) */
 
 @media screen and (min-width: 786px) {
