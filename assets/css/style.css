@@ -68,7 +68,7 @@ nav {
 }
 
 #nav-toggle {
-    display: none;
+    display: none; 
 }
 
 .nav-toggle-label {
@@ -76,7 +76,7 @@ nav {
 }
 
 #nav-toggle:checked~nav {
-    display: block;
+    display: block; 
 }
 
 /* main content */
@@ -205,6 +205,40 @@ hr {
     font-size: 100%;
     background-color: #e36e21;
     color: #ffffff;
+}
+
+/* map section */
+
+#map {
+    width: 50%;
+    height: 300;
+    left: 0;
+}
+
+#contact {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 100%;
+}
+
+/* to align the contact and the map together */
+
+#info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#info a {
+    text-decoration: none;
+    color: #2a2828;
+}
+
+#email {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-size: 100%;
 }
 
 
