@@ -195,7 +195,8 @@ hr {
 .radio-buttons {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-top: 10px;
 }
 
 .join-button {
@@ -204,6 +205,11 @@ hr {
     padding: 15px 32px;
     font-size: 100%;
     background-color: #e36e21;
+    color: #ffffff;
+}
+
+.join-button a {
+    text-decoration: none;
     color: #ffffff;
 }
 
