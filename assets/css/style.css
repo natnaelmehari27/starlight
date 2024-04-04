@@ -6,6 +6,8 @@
     scroll-behavior: smooth;
 }
 
+/* General styles  */
+
 body {
     min-height: 100vh;
     display: flex;
@@ -38,11 +40,11 @@ header a {
     margin-bottom: 20px;
     text-transform: uppercase;
 }
+/* The line that shows what page we are on */
 
 .active {
     border-bottom: 1px solid #f41515;
 }
-
 
 /* nav styles */
 
@@ -110,6 +112,11 @@ main {
 
 #cover-text > h2, #cover-text > h3 {
     color: #ffffff;
+}
+
+#cover-text img {
+    width: 30%;
+    height: 10%;
 }
 
 #yoga {
