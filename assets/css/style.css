@@ -1,12 +1,11 @@
-/* Asterisk wilcard selector to override default styles */
+ /* asterisk wildcard to override the defalut style */
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-
-/* general style */
 
 body {
     min-height: 100vh;
@@ -17,67 +16,73 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: 'Libre Baskerville', Helvetica, sans-serif;
     text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Libre Baskerville', Helvetica, sans-serif;
 }
 
-/* header */
-header {
+  /* header */
+  header {
     background-color: #ffffff;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #e3dcdc;
+    box-shadow: 0 2px 2px #3a3a3a3a;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
 }
-  
-a {
+
+header a {
     text-decoration: none;
-    color: inherit;
-    text-transform: uppercase;
     color: #000000;
     margin-bottom: 20px;
-}
-
-#navbar {
-    font-size: 110%;
-    list-style-type: none;
-}
-
-#navbar > li {
-    margin-bottom: 1em;
+    text-transform: uppercase;
 }
 
 .active {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #3a3a3a;
 }
- 
- /* navbar styles  */
+
+
+/* nav styles */
+
+#menu {
+    font-size: 110;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
 nav {
     position: absolute;
-    background: #ffffff;
+    background-color: #ffffff;
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #e3dcdc;
+    box-shadow: 0 2px 2px #3a3a3a3a;
     display: none;
     top: 100%;
 }
 
 #nav-toggle {
-    display: none; 
+    display: none;
+    
 }
 
 .nav-toggle-label {
     font-size: 2rem;
+    color: #000000;
 }
 
 #nav-toggle:checked~nav {
-    display: block; 
+    display: block;
 }
+
 
 /* main content */
 
@@ -99,7 +104,7 @@ main {
     background-color: rgba(240, 243, 245, 0);
     font-size: 130%;
     position: absolute;
-    bottom: 300px;
+    bottom: 150px;
     width: 80%;
     min-height: 200px;
     padding-top: 40px;
@@ -279,11 +284,11 @@ footer {
         padding-right: 1rem;
     }
 
-    #navbar {
+    #menu {
         display: flex;
     }
 
-    #navbar > li {
+    #menu > li {
         padding-left: 1rem;
     }
 
