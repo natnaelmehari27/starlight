@@ -37,8 +37,8 @@ header a {
     text-decoration: none;
     color: inherit;
     text-transform: uppercase;
-    letter-spacing: 1px;
     color: #000000;
+    margin-bottom: 20px;
 }
 
 #bar {
@@ -96,7 +96,7 @@ main {
 }
 
 #cover-text {
-    background-color: rgba(54, 97, 133, 0.4);
+    background-color: rgba(240, 243, 245, 0);
     font-size: 130%;
     position: absolute;
     bottom: 30px;
@@ -328,4 +328,5 @@ footer {
         left: 10%;
         top: 100px;
     }
+
 }
