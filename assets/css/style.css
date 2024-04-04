@@ -172,6 +172,17 @@ hr {
     flex-grow: 1;
     border: 2px solid white;
 }
+/* Gallery page */
+
+#photos {
+    line-height: 0;
+}
+
+#photos img {
+    width: 100%;
+    height: 100%;
+    line-height: 1em;
+}
 
 /* join us page */
 
@@ -333,6 +344,11 @@ footer {
         position: absolute;
         left: 10%;
         top: 100px;
+    }
+
+    #photos {
+        column-count: 3;
+        column-gap: 0;
     }
 
 }
