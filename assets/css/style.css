@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 /* general style */
@@ -32,8 +33,8 @@ header {
     justify-content: space-between;
     align-items: baseline;
 }
-
-header a {
+  
+a {
     text-decoration: none;
     color: inherit;
     text-transform: uppercase;
@@ -41,20 +42,20 @@ header a {
     margin-bottom: 20px;
 }
 
-#bar {
+#navbar {
     font-size: 110%;
     list-style-type: none;
 }
 
-#bar > li {
+#navbar > li {
     margin-bottom: 1em;
 }
 
 .active {
     border-bottom: 1px solid black;
 }
-
-/* navbar styles */
+ 
+ /* navbar styles  */
 nav {
     position: absolute;
     background: #ffffff;
@@ -98,7 +99,7 @@ main {
     background-color: rgba(240, 243, 245, 0);
     font-size: 130%;
     position: absolute;
-    bottom: 30px;
+    bottom: 300px;
     width: 80%;
     min-height: 200px;
     padding-top: 40px;
@@ -278,11 +279,11 @@ footer {
         padding-right: 1rem;
     }
 
-    #bar {
+    #navbar {
         display: flex;
     }
 
-    #bar > li {
+    #navbar > li {
         padding-left: 1rem;
     }
 
@@ -302,6 +303,7 @@ footer {
     }
 
     #cover-text {
+        bottom: 50px;
         width: 300px;
         right: 50px;
     }
