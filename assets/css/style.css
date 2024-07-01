@@ -103,7 +103,7 @@ main {
     background-color: rgba(240, 243, 245, 0);
     font-size: 130%;
     position: absolute;
-    bottom: 150px;
+    top: 50px;
     width: 80%;
     min-height: 200px;
     padding-top: 40px;
@@ -243,13 +243,7 @@ iframe {
     color: #ffffff;
 }
 
-/* map and contact section */
-
-#map {
-    width: 50%;
-    height: 300%;
-    left: 0;
-}
+/* contact section */
 
 #contact {
     text-align: center;
@@ -334,7 +328,7 @@ footer {
     }
 
     #cover-text {
-        bottom: 50px;
+        top: 350px;
         width: 300px;
         right: 50px;
     }
