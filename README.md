@@ -2,7 +2,8 @@
 
 Starlight Yoga is a site that is committed to introduct yoga to individuals that have not witnessed the benefits and advantages that comes with yoga. Here at Starlight located in Stockholm, our main objective is to welcome new beginners to the world of yoga. That being said, there is also programs for individuals who are already familiar with yoga.
 
-![Responsice Mockup](https://github.com/natnaelmehari27/starlight/assets/159337397/e40c9ae8-914f-4fdd-ace4-493ce1f870eb)
+![Responsice Mockup]![all-devices-white (1)](https://github.com/natnaelmehari27/starlight/assets/159337397/7d63f5e3-70fc-402d-974c-6f8b29623f57)
+
 
 ## Features 
 our Starlight Yoga is made to for anyone that want to know about yoga and also anyone that wants to join our commiunity. The site is divide into 4 parts. there is home page where we introduce you to our site and the benefits of yoga. course page shows the class you can take with us. gallery page is about individuals better their life with yoga. lastly we have the join us page, we are sure once you get to this page, you will undoubt feel the need to join us.
@@ -34,10 +35,11 @@ our Starlight Yoga is made to for anyone that want to know about yoga and also a
 <img width="942" alt="Skärmbild 2024-04-05 011145" src="https://github.com/natnaelmehari27/starlight/assets/159337397/123a934b-bd3e-4beb-a819-46609e415435">
 
 - __Contact__
-- The sector will allow user to see where and how to find us. you have find our address name or even the map too.
-- as well as our phone number and email address is there for the user
+- The sector will allow user to see where and how to find us. you have find our address name.
+- as well as our phone number and email address is there for the users
 
-<img width="960" alt="Skärmbild 2024-04-05 012022" src="https://github.com/natnaelmehari27/starlight/assets/159337397/c80b8a6c-d2a5-4abd-b980-0cf1a3482ee8">
+<img width="960" alt="Skärmbild 2024-07-01 145437" src="https://github.com/natnaelmehari27/starlight/assets/159337397/385311a0-631e-4b2b-9724-e8f4bef95428">
+
 
 - __The Footer__ 
 
